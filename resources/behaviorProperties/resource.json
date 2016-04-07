@@ -1,0 +1,19 @@
+{
+  "behaviors": {
+    "GameBehavior": {
+      "scriptId": "0",
+      "line": 2,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "stepDuration",
+          "type": "number"
+        },
+        {
+          "name": "playerPos",
+          "type": "Sup.Math.Vector2"
+        }
+      ]
+    }
+  }
+}

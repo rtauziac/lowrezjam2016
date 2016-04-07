@@ -1,0 +1,52 @@
+[
+  {
+    "id": "0",
+    "name": "Game",
+    "type": "script"
+  },
+  {
+    "id": "1",
+    "name": "Game Map",
+    "type": "scene"
+  },
+  {
+    "id": "2",
+    "name": "Tile Set",
+    "type": "tileSet"
+  },
+  {
+    "id": "3",
+    "name": "Tile Map",
+    "type": "tileMap"
+  },
+  {
+    "id": "6",
+    "name": "Tile Map Buffer",
+    "type": "tileMap"
+  },
+  {
+    "id": "4",
+    "name": "Palette Shader",
+    "type": "shader"
+  },
+  {
+    "id": "7",
+    "name": "Impulse",
+    "type": "sound"
+  },
+  {
+    "id": "8",
+    "name": "Impulse2",
+    "type": "sound"
+  },
+  {
+    "id": "9",
+    "name": "Impulse3",
+    "type": "sound"
+  },
+  {
+    "id": "10",
+    "name": "Impulse4",
+    "type": "sound"
+  }
+]

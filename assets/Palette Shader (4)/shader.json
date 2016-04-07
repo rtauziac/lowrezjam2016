@@ -1,0 +1,57 @@
+{
+  "formatVersion": 1,
+  "uniforms": [
+    {
+      "id": "0",
+      "name": "map",
+      "type": "t",
+      "value": "map"
+    },
+    {
+      "id": "1",
+      "name": "col1",
+      "type": "v4",
+      "value": [
+        0.224,
+        0.184,
+        0.153,
+        1
+      ]
+    },
+    {
+      "id": "2",
+      "name": "col2",
+      "type": "v4",
+      "value": [
+        0.871,
+        0.184,
+        0.62,
+        1
+      ]
+    },
+    {
+      "id": "3",
+      "name": "col3",
+      "type": "v4",
+      "value": [
+        0,
+        0.557,
+        0.871,
+        1
+      ]
+    },
+    {
+      "id": "4",
+      "name": "col4",
+      "type": "v4",
+      "value": [
+        0.961,
+        0.7657,
+        0.047,
+        1
+      ]
+    }
+  ],
+  "useLightUniforms": false,
+  "attributes": []
+}

@@ -1,0 +1,24 @@
+uniform sampler2D map;
+varying vec2 vUv;
+uniform vec4 col1;
+uniform vec4 col2;
+uniform vec4 col3;
+uniform vec4 col4;
+
+void main() {
+    vec4 texCol = texture2D(map, vUv);
+    float lum = (texCol.x + texCol.y + texCol.z) / 3.0;
+    if (lum < 0.25) {
+        texCol = col1;
+    }
+    else if (lum < 0.5) {
+        texCol = col2;
+    }
+    else if (lum < 0.75) {
+        texCol = col3;
+    }
+    else {
+        texCol = col4;
+    }
+    gl_FragColor = texCol;
+}
